@@ -1,0 +1,35 @@
+2022-11-28T07:55:48+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_638469847f691httplocalhostdmcagainwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/dmc_again\/wp-admin\/"}
+
+2022-11-28T07:55:53+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5004 milliseconds with 0 bytes received
+
+2022-11-28T07:55:53+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202211280755530102450372300E179418,202211280755530102450372300E179418
+x-tt-trace-host: 012eb7708f3dcd8459aae7106e3ca3fe896767a2a9623954d4a57c2379b65ce1394d2fca2f6459af20d20251bebf2e17363609f4846404f743adfed1870ed6c424c5fdd1476c13c04a0525516e297df4c42155447254aa63966825e95fa02bad39
+Content-Encoding: gzip
+Content-Length: 206
+X-Origin-Response-Time: 27,23.48.107.7
+X-Akamai-Request-ID: 4dbbadc3.52cb42a0
+Date: Mon, 28 Nov 2022 07:55:53 GMT
+X-Cache: TCP_MISS from a118-69-17-246.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-48-107-7.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=41, origin; dur=27
+Server-Timing: inner; dur=23
+X-Parent-Response-Time: 65,118.69.17.246
+
+{"code":0,"msg":"ok","data":{"app_secret":"226b5c8cbaa550202b3e51b076b6b50b59b0b73c","redirect_uri":"http:\/\/localhost\/dmc_again\/wp-admin\/","app_id":"7170972525281689601","external_data_key":"df7f40b4-3571-46f5-9ccd-72c93dfa83df"}}
+
+2022-11-28T08:07:14+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-28T08:08:29+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-28T08:09:42+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-28T08:10:29+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync

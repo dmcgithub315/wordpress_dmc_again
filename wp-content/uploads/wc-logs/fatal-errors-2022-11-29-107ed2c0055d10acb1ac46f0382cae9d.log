@@ -1,0 +1,12 @@
+2022-11-29T08:02:15+00:00 CRITICAL Cannot redeclare lay_custom_post_type() (previously declared in C:\xampp\htdocs\dmc_again\wp-content\themes\dmc\functions.php:59) in C:\xampp\htdocs\dmc_again\wp-content\themes\dmc\index.php on line 95
+
+2022-11-29T08:09:38+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\dmc_again\wp-content\themes\dmc\index.php:5
+Stack trace:
+#0 C:\xampp\htdocs\dmc_again\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\dmc_again\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dmc_again\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\dmc_again\wp-content\themes\dmc\index.php on line 5
+
+2022-11-29T08:35:57+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\xampp\htdocs\dmc_again\wp-content\themes\dmc\index.php on line 205
+
